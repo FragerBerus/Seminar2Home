@@ -6,6 +6,8 @@
 // 32679 -> 6
 Console.WriteLine("Введите число от -2147483648 до 2147483647: ");
 string number = Console.ReadLine();
+// int size = number.ligth; // Определяет длину строковой
+                            // переменной (количество символов). 
 int numberDigital = Convert.ToInt32(number);
 if (numberDigital < 100 && numberDigital > (-100))
 {
